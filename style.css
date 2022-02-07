@@ -75,5 +75,19 @@ main {
     font-weight: 500;
 }
 
+.current .weather {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4)
+}
 
+.current .hi-low {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4)
+}
 
