@@ -8,25 +8,22 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="main"></div>
-    <div class="header">
-        <p>Weather App</p>
-        <div class="search">
-            <p>Search city:-</p>
-            <input type="search" class="search" name="" id="">
-        </div>
+    <div class="app-wrap">
+        <header>
+          <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+        </header>
+        <main>
+          <section class="location">
+            <div class="city">Northampton, GB</div>
+            <div class="date">Thursday 10 January 2020</div>
+          </section>
+          <div class="current">
+            <div class="temp">15<span>°c</span></div>
+            <div class="weather">Sunny</div>
+            <div class="hi-low">13°c / 16°c</div>
+          </div>
+        </main>
     </div>
-    <div class="section">
-        <p>Current Weather</p>
-        <p>Current Weather</p>
-    </div>
-    <div class="mainbox">
-        <div class="city"></div>
-        <div class="date"></div>
-        <div class="temp"></div>
-        <div class="weather"></div>
-        <div class="hiLow"></div>
-    </div>
-</body>
 <script type="text/javascript" src="index.js"></script>
+</body>
 </html>
